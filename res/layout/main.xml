@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/hello"
+    android:textSize="30sp" />
+    <ToggleButton
+		android:id="@+id/buttonred"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="20px"
+		android:textOff="Red Led is OFF"
+		android:textOn="Red Led is ON"
+		/>
+    <ToggleButton
+		android:id="@+id/buttongreen"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="20px"
+		android:textOff="Grn Led is OFF"
+		android:textOn="Grn Led is ON"
+		/>
+    <ToggleButton
+		android:id="@+id/buttonblue"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="20px"
+		android:textOff="Blu Led is OFF"
+		android:textOn="Blu Led is ON"
+		/>
+
+<TextView
+    android:id="@+id/label"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:text="@string/hello"
+    />
+
+</LinearLayout>
